@@ -1,0 +1,56 @@
+.chatbot-builder-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #F5F5F5;
+  height: 100vh;
+}
+
+.chatbot-builder-title {
+  padding: 16px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.chatbot-builder-container {
+  overflow: hidden;
+  border-radius: 12px;
+  width: 85%;
+  height: 70%;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-container {
+  padding: 12px;
+  background: #f3f3f3;
+  text-align: right;
+}
+
+.save-btn {
+  background: #fff;
+  border: 1px solid #0F34FF;
+  border-radius: 4px;
+  padding: 4px 16px;
+  color: #0F34FF;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  box-shadow: 0 0 2px 2px #87b4f3;
+}
+
+.flow-builder-container {
+  width: 100%;
+  height: 100%;
+}
+
+.chatbot-flow-builder-container {
+  height: 90%;
+  display: flex;
+}

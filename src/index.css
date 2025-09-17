@@ -1,0 +1,143 @@
+body {
+  font-family: "Comfortaa", sans-serif;
+  margin: 0px;
+}
+
+/* Css code for NodeSidePanel Component */
+.setting-panel {
+  width: 243px;
+  height: 100%;
+  border-left: 1px solid #dcdcdc;
+  border-top: 1px solid #dcdcdc;
+  overflow: hidden;
+}
+
+.side-panel-container {
+  padding: 10px;
+  border-left: 1px solid #dcdcdc;
+  border-top: 1px solid #dcdcdc;
+  height: 100%;
+  width: 220px;
+}
+
+.update-text-container {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  padding: 8px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 8px;
+}
+
+.back-arrow {
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.update-msg-title {
+  font-size: 12px;
+}
+
+.update-msg-input {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 12px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.update-textarea {
+  padding: 8px;
+  height: 50px !important;
+  border: 2px solid #dcdcdc;
+  border-radius: 4px;
+  width: 90%;
+  resize: vertical;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.update-msg-inp-title {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.node {
+  border: 2px solid #0F34FF;
+  border-radius: 4px;
+  width: 50%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  cursor: grab;
+}
+
+.message-icon {
+  height: 20px;
+  width: 20px;
+  color: #0F34FF;
+}
+
+.node span{
+  color: #0F34FF;
+  font-size: 12px;
+}
+
+/* Css code for TextNode Component */
+.text-node-container {
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 8px;
+  width: 100px;
+  text-align: center;
+}
+
+.text-node-handle {
+  width: 2px !important;
+  height: 2px !important;
+  background: #575757 !important;
+}
+
+.text-node-header-con {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.text-node-msg-icon,
+.text-node-call-icon {
+  height: 6px;
+  width: 6px;
+  margin-top: 2px;
+}
+
+.text-node-call-icon {
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
+
+.text-node-title {
+  font-size: 6px;
+  font-weight: bold;
+}
+
+.text-node-header {
+  padding: 2px 4px;
+  border-radius: 4px 4px 0px 0px;
+  background: #b3f0e4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-node-body {
+  padding: 6px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  text-align: left;
+}
+
+
